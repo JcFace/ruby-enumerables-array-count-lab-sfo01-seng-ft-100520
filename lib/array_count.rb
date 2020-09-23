@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |string|
-    object.respond_to(:to_s)
+    string.respond_to(:to_s)
   end
 end
 

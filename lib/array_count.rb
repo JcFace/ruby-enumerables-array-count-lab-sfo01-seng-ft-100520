@@ -6,7 +6,7 @@ end
 
 def count_empty_strings(array)
 array.count do |string|
-  string == array.join.empty?
+  string.empty?
 end 
 end
 
